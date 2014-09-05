@@ -4,7 +4,7 @@ Aria.classDefinition({
     $prototype : {
         skinName : "atskin",
         skinObject : {
-            // //#DropdownIcon
+            ////#DropdownIcon
             Icon : {
                 dropdown : {
                     content : {
@@ -25,28 +25,8 @@ Aria.classDefinition({
                     iconHeight : 20,
                     biDimensional : false
                 }
-            },
-            // //#DropdownIcon
-            ////#DatePickerIcon
-            DatePicker : {
-                std : {
-                    iconsRight : "dropdown",
-                    ...
-                    states : {
-                        .....
-                        normal : {
-                            .....
-                            icons : {
-                                dropdown : "dropdown:datepicker_normal"
-                            }
-                        ........
-                        }
-                        ......
-                    }
-                        .......
-                }
             }
-            ////#DatePickerIcon
+            ////#DropdownIcon
         }
     }
 });
